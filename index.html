@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Campito</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-success text-white py-3">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-4">
+                <h1 class="h4">El Campito</h1>
+            </div>
+            <div class="col-12 col-md-8">
+                <nav>
+                    <ul class="nav justify-content-md-end justify-content-center">
+                        <li class="nav-item"><a href="#QuienesSomos" class="nav-link text-white">Quiénes Somos?</a></li>
+                        <li class="nav-item"><a href="#actividades" class="nav-link text-white">Actividades</a></li>
+                        <li class="nav-item"><a href="#sevicios" class="nav-link text-white">Servicios</a></li>
+                        <li class="nav-item"><a href="#productos" class="nav-link text-white">Productos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- Landing Page -->
+    <section class="LP">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <img src="img/LogoLP.png" class="fade-in d-block mx-auto img-fluid" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Quienes Somos -->
+    <section id="QuienesSomos" class="py-4 text-center">
+      <div class="container d-flex align-items-center" style="min-height: 100vh;">
+        <div class="row">
+          <div class="col-6">
+          <h2 class="display-4 mb-4 py-2">Quiénes Somos?</h2>
+          <p>El Campito es una granja de enseñanza para niños, jóvenes y adultos que buscan conocer más sobre el origen de sus alimentos. La granja busca ser un lugar de encuentro en el que se desarrollen una serie de actividades que promuevan y refuercen el vínculo de los seres humanos con la tierra. Nuestra historia comienza como una pequeña granja destinada al consumo propio, donde descubrimos la satisfacción y el amor por cultivar alimentos saludables de manera sostenible.</p> <i class="fab fa-seedling"></i>
+          </div>
+          <!-- Carrousel -->
+          <div class="col-6">
+              <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1500">
+                      <img src="img/plantita.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                      <img src="img/flores.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                      <img src="img/kales.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                      <img src="img/lechuga.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                      <img src="img/aguacate.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                      <img src="img/cafe.JPG" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+    <!-- Activities section -->
+    <section>
+      <div class="container" id="actividades" class="py-4 text-center" style="min-height: 100vh;">
+        <h2 class="text-center py-4">Actividades</h2>
+        <!-- Carrousel -->
+          <div id="carousel2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carousel2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="img/Siembra.jpeg" class="d-block w-100" alt="Procesos de siembra">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Procesos de siembra</h5>
+                  <p>Preparación del suelo, selección de semillas y técnicas adecuadas para iniciar el cultivo.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/Cuidado.jpeg" class="d-block w-100" alt="Cuidado del huerto">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cuidado y mantenimiento del huerto</h5>
+                  <p>Riego, control de plagas y monitoreo constante para un desarrollo saludable de las plantas.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/Cosecha.jpeg" class="d-block w-100" alt="Cosecha">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cosecha de productos del huerto</h5>
+                  <p>Recolección oportuna de frutas, hortalizas y legumbres cultivadas de manera natural.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="" class="d-block w-100" alt="Compostaje">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Elaboración y producción de compost</h5>
+                  <p>Transformación de residuos orgánicos en abono natural para enriquecer el suelo.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="" class="d-block w-100" alt="Cuidado de animales">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Alimentación y cuidado de animales de granja</h5>
+                  <p>Atención diaria a conejos, cuyes y gallinas para asegurar su bienestar y producción.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/paquetes.jpeg" class="d-block w-100" alt="Elaboración de productos">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Elaboración de productos naturales</h5>
+                  <p>Creación de infusiones, mermeladas y macerados con plantas del huerto.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Servicios</h2>
+        <div class="row justify-content-  center">
+          <!-- Tarjeta 1 -->
+          <div class="col-md-4 p-2">
+            <div class="card h-100 d-flex flex-row">
+              <img src="img/Talleres.JPG" class="img-fluid img-thumbnail" alt="Campesino 1">
+              <div class="card-body">
+                <h5 class="card-title">Campesino 1</h5>
+                <p class="card-text">Ven 1 día a la semana por 20 $ al mes</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 2 -->
+          <div class="col-md-4 p-2">
+            <div class="card h-100 d-flex flex-row">
+              <img src="img/Talleres2.JPG" class="img-fluid img-thumbnail" alt="Campesino 2">
+              <div class="card-body">
+                <h5 class="card-title">Campesino 2</h5>
+                <p class="card-text">Ven 2 días a la semana por 35$ al mes</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 3 -->
+          <div class="col-md-4 p-2">
+            <div class="card h-100 d-flex flex-row">
+              <img src="img/Cosecha.jpeg" class="img-fluid img-thumbnail" alt="Campesino 3">
+              <div class="card-body">
+                <h5 class="card-title">Campesino 3</h5>
+                <p class="card-text">Ven 3 días a la semana por 50 $ al mes</p>
+                <a class="btn btn-success" href="#" role="button">Solicita Aquí <i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 4 -->
+          <div class="col-md-6 p-2">
+            <div class="card h-100 d-flex flex-row">
+              <img src="img/Talleres3.jpg" class="img-fluid img-thumbnail" alt="Talleres">
+              <div class="card-body">
+                <h5 class="card-title">Talleres Vacacionales</h5>
+                <p class="card-text">Talleres vacacionales 4 días a la semana 60$ mensual </p>
+              </div>
+            </div>
+          </div>
+          <!-- Tarjeta 5 -->
+          <div class="col-md-6 p-2">
+            <div class="card h-100 d-flex flex-row">
+              <img src="img/cafe3.JPG" class="img-fluid img-thumbnail" alt="Cafertería">
+              <div class="card-body">
+                <h5 class="card-title">Cafetería</h5>
+                <p class="card-text">Servicio de cafetería para padres y público en general con productos del huerto</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section id="Productos" class="py-5 bg-light" style="min-height: 100vh;">
+      <div class="container">
+        <h2 class="text-center mb-5">Productos</h2>
+         <div class="card border-0 shadow-lg position-relative overflow-hidden" style="height: 80vh;">
+            <!-- Imagen de fondo con opacidad -->
+            <img src="img/paquetes.jpeg" 
+                alt="Fondo huerto" 
+                class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" 
+                style="opacity: 0.6; z-index: 1;">
+            
+            <!-- Contenido encima -->
+            <div class="card-body d-flex flex-column justify-content-center align-items-center h-100 position-relative" style="z-index: 2;">
+              <h2 class="card-title mb-3">¡Personaliza tu experiencia!</h2>
+              <p class="card-text fs-5 text-center">Selecciona entre los productos disponibles y arma tu paquete ideal.</p>
+              <a href="#productos" class="btn btn-lg btn-danger mt-3">
+                Crea tu paquete con los productos disponibles <strong>AQUÍ</strong>
+              </a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contactos y pedidos</h2>
+            <p class="mb-4">Realiza tu pedido a través de nuestras redes sociales:</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <a href="https://www.facebook.com/YourFarmPage" target="_blank" class="btn btn-primary btn-lg w-100 mb-3">
+                        <i class="fab fa-facebook-f"></i>  Facebook
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.instagram.com/YourFarmPage" target="_blank" class="btn btn-danger btn-lg w-100 mb-3">
+                        <i class="fab fa-instagram"></i>  Instagram
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://wa.me/YourWhatsAppNumber" target="_blank" class="btn btn-success btn-lg w-100 mb-3">
+                        <i class="fab fa-whatsapp"></i>  WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-success text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Farm Fresh Produce. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
