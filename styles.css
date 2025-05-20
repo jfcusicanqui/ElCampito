@@ -1,11 +1,17 @@
 /* Custom Styles */
 p{
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
+.quienes-texto {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
 .LP img{
-    width: 60%;
+    margin-top: 3rem;
+    width: 100%;
 }
 .carousel-caption {
     background: rgba(0, 0, 0, 0.6); /* fondo negro semitransparente */
@@ -24,6 +30,7 @@ p{
 .card img {
     height: 30vh;
     object-fit: cover;
+    width: 40%;
 }
 .carousel-inner img {
     height: 80vh;
@@ -64,8 +71,19 @@ p{
       animation: fadeIn 1s ease-in forwards;
     }
 
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
-    }
+@media (min-width: 768px) {
+  .quienes-texto {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  .LP img{
+    margin-top: 0;
+    width: 60%;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
