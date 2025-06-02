@@ -2,19 +2,13 @@
 p{
     font-size: 1.2em;
     text-align: center;
-    line-height: 1.2em;
+    line-height: 150%;
 }
 .quienes-texto {
   font-size: 1rem;
   line-height: 1.3;
 }
-.LP{
-  height: 90vh;
-}
-.LP img{
-    margin-top: 3rem;
-    width: 100%;
-}
+
 .carousel-caption {
     background: rgba(0, 0, 0, 0.6); /* fondo negro semitransparente */
     border-radius: 12px;
@@ -51,6 +45,12 @@ p{
     justify-content: center;
     transition: all 0.3s ease;
   }
+.social-floating {
+position: fixed;
+bottom: 20px;
+right: 15px;
+z-index: 1050;
+}
 .fb:hover {
     background-color: #3b5998; /* Un verde más oscuro */
     color: white;
@@ -79,8 +79,7 @@ p{
     line-height: 1.4;
   }
   .LP img{
-    margin-top: 0;
-    width: 60%;
+    width: 50%;
   }
 }
 

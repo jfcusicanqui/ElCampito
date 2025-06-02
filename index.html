@@ -13,49 +13,51 @@
 <body>
   <!-- Header -->
   <header class="bg-success text-white py-3">
-    <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-md-4 text-center">
           <h1 class="h4">El Campito</h1>
         </div>
         <div class="col-12 col-md-8">
-          <nav class="d-flex justify-content-md-end justify-content-center align-items-center gap-3 flex-wrap">
-            <!-- Menú principal -->
-            <ul class="nav me-md-3">
-              <li class="nav-item"><a href="#quienesSomos" class="nav-link text-white">Quiénes Somos?</a></li>
-              <li class="nav-item"><a href="#actividades" class="nav-link text-white">Actividades</a></li>
-              <li class="nav-item"><a href="#servicios" class="nav-link text-white">Servicios</a></li>
-              <li class="nav-item"><a href="#productos" class="nav-link text-white">Productos</a></li>
-            </ul>
-
-            <!-- Botones circulares visibles solo en pantallas md+ -->
-            <div class="d-none d-md-flex gap-2">
-              <a href="https://www.facebook.com/profile.php?id=61576686148713" target="_blank" class="btn contact-btn fb">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://www.instagram.com/YourFarmPage" target="_blank" class="btn contact-btn in">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="https://wa.me/593998483798" target="_blank" class="btn contact-btn wa">
-                <i class="fab fa-whatsapp"></i>
-              </a>
+          <div class="row align-items-center">
+            <!-- Menú de navegación -->
+            <div class="col-12 col-md-6">
+              <ul class="nav justify-content-center flex-wrap">
+                <li class="nav-item"><a href="#quienesSomos" class="nav-link text-white">Quiénes Somos?</a></li>
+                <li class="nav-item"><a href="#actividades" class="nav-link text-white">Actividades</a></li>
+                <li class="nav-item"><a href="#servicios" class="nav-link text-white">Servicios</a></li>
+                <li class="nav-item"><a href="#productos" class="nav-link text-white">Productos</a></li>
+              </ul>
             </div>
-          </nav>
+
+            <!-- Redes sociales visibles en md+ -->
+            <div class="col-md-2 d-none d-md-flex justify-content-end gap-2">
+              <a href="https://www.facebook.com/profile.php?id=61576686148713" class="btn contact-btn fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/campito2965/" class="btn contact-btn in" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/593998483798" target="_blank" class="btn contact-btn wa"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <!-- Botones flotantes solo en móviles -->
+          <div class="social-floating d-flex flex-column gap-2 d-md-none">
+            <a href="https://www.facebook.com/profile.php?id=61576686148713" class="btn contact-btn fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/campito2965/" class="btn contact-btn in" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/593998483798" target="_blank" ><i class="fab fa-whatsapp"></i></a>
+          </div>
         </div>
       </div>
-    </div>
   </header>
 
     <!-- Landing Page -->
     <section class="LP">
       <div class="container">
-          <div class="row">
-              <div class="col">
-                  <img src="img/LogoLP.png" class="fade-in d-block mx-auto img-fluid" alt="">
-              </div>
+        <div class="row" style="height: 90vh;">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img src="img/LogoLP.png" class="fade-in d-block mx-auto img-fluid" alt="">
           </div>
+        </div>
       </div>
-  </section>
+    </section>
+
 
     <!-- Quienes Somos -->
     <section id="quienesSomos" class="py-5 text-center">
@@ -64,29 +66,29 @@
           <div class="col-12 col-md-6">
           <h2 class="mb-4 py-2">Quiénes Somos?</h2>
           <p class="quienes-texto">
-            El Campito es una granja de enseñanza para niños, jóvenes y adultos que buscan conocer más sobre el origen de sus alimentos. La granja busca ser un lugar de encuentro en el que se desarrollen una serie de actividades que promuevan y refuercen el vínculo de los seres humanos con la tierra. Nuestra historia comienza como una pequeña granja destinada al consumo propio, donde descubrimos la satisfacción y el amor por cultivar alimentos saludables de manera sostenible.
+            El Campito es una granja de enseñanza para niños, jóvenes y adultos que buscan conocer más sobre el origen de sus alimentos. Un lugar de encuentro en el que se desarrollen una serie de actividades que promuevan y refuercen el vínculo de los seres humanos con la tierra. Nuestra historia comienza como una pequeña granja destinada al consumo propio, donde descubrimos la satisfacción y el amor por cultivar y consumir alimentos saludables de manera sostenible.
           </p>
         </div>
           <!-- Carrousel -->
           <div class="col-12 col-md-6">
-              <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                   <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="1500">
+                    <div class="carousel-item active" data-bs-interval="2000">
                       <img src="img/plantita.JPG" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                       <img src="img/flores.JPG" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                       <img src="img/kales.JPG" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                       <img src="img/lechuga.JPG" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                       <img src="img/aguacate.JPG" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                       <img src="img/cafe.JPG" class="d-block w-100" alt="...">
                     </div>
                   </div>
@@ -119,7 +121,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="5000">
-                <img src="img/Cuidado.jpeg" class="d-block w-100" alt="Cuidado del huerto">
+                <img src="img/Cuidado.jpeg" class="d-block mx-auto img-fluid w-90" alt="Cuidado del huerto">
                 <div class="carousel-caption d-md-block">
                   <h5>Cuidado y mantenimiento del huerto</h5>
                   <p>Riego, control de plagas y monitoreo constante para un desarrollo saludable de las plantas.</p>
@@ -147,7 +149,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="5000">
-                <img src="img/paquetes.jpeg" class="d-block w-100" alt="Elaboración de productos">
+                <img src="img/macerados.jpg" class="d-block mx-auto img-fluid w-80" alt="Macerados">
                 <div class="carousel-caption d-md-block">
                   <h5>Elaboración de productos naturales</h5>
                   <p>Creación de infusiones, mermeladas y macerados con plantas del huerto.</p>
@@ -155,11 +157,11 @@
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgb(4, 4, 4); border-radius: 10%;"></span>
               <span class="visually-hidden">Anterior</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: rgb(4, 4, 4); border-radius: 10%;"></span>
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>
@@ -177,7 +179,7 @@
               <img src="img/Talleres.JPG" class="img-fluid img-thumbnail" alt="Campesino 1">
               <div class="card-body">
                 <h5 class="card-title">Campesino 1</h5>
-                <p class="card-text">Ven 1 día a la semana por 20 $ al mes</p>
+                <p class="card-text">Ven 1 día a la semana de 15:00 a 17:30 <br> <strong>$70/mes</strong></p>
               </div>
             </div>
           </div>
@@ -187,7 +189,7 @@
               <img src="img/Talleres2.JPG" class="img-fluid img-thumbnail" alt="Campesino 2">
               <div class="card-body">
                 <h5 class="card-title">Campesino 2</h5>
-                <p class="card-text">Ven 2 días a la semana <br> $35 al mes</p>
+                <p class="card-text">Ven 3 días a la semana 15:00 a 17:30 <br> <strong>$125/mes</strong></p>
               </div>
             </div>
           </div>
@@ -197,7 +199,7 @@
               <img src="img/Cosecha.jpeg" class="img-fluid img-thumbnail" alt="Campesino 3">
               <div class="card-body">
                 <h5 class="card-title">Campesino 3</h5>
-                <p class="card-text">Ven 3 días a la semana <br> $50 al mes</p>
+                <p class="card-text">Ven 5 días a la semana 15:00 a 17:30 <br> <strong>$250 al mes</strong></p> 
               </div>
             </div>
           </div>
@@ -215,7 +217,7 @@
               <img src="img/Talleres3.jpg" class="img-fluid img-thumbnail" alt="Talleres">
               <div class="card-body text-center">
                 <h5 class="card-title">Talleres Vacacionales</h5>
-                <p class="card-text">Talleres vacacionales del 7 al 25 de julio <br> $160 tiempo completo <br> $110 medio tiempo </p>
+                <p class="card-text">Talleres vacacionales del <em>7 al 25 de julio</em><br> <strong>$160 tiempo completo</strong><br><strong>$110 medio tiempo</strong></p>
                 <a class="btn btn-info btn-lg" href="#" role="button">Registrate al curso vacacional <i class="fa-regular fa-pen-to-square"></i></a>
               </div>
             </div>
