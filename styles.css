@@ -46,10 +46,10 @@ p{
     transition: all 0.3s ease;
   }
 .social-floating {
-position: fixed;
-bottom: 20px;
-right: 15px;
-z-index: 1050;
+  position: fixed;
+  top: 180px; /* o ajusta según la altura de tu navbar */
+  right: 1rem;
+  z-index: 1050; /* más alto que el contenido */
 }
 .fb:hover {
     background-color: #3b5998; /* Un verde más oscuro */
